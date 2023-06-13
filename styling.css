@@ -1,0 +1,70 @@
+:root {
+    background-color: black;  
+    display: flex;
+    justify-content: center;
+
+}
+
+.calculatorOuterFrame {
+    display: flex;
+    border-radius: 10px;
+    height: 550px;
+    width: 400px;
+    margin: 100px;
+    background-color: darkgrey;
+}
+
+.displayMain {
+    background-color: blue;
+    width: 500px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.buttonWrapper {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 280px;
+    width: 300px;
+    margin-top: 150px;
+    border-radius: 15px;
+    gap: 15px;
+    
+    
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 80px;
+    width: 80px;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    border: solid black 1px;
+}
+
+.bottomRow {
+    border: solid red 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    width: 370px;
+    height: 90px;
+    padding: 10px
+    
+}
+
+#zero {
+    width: 140px;
+}
+
+#equalSign {
+    width: 100px;
+}
