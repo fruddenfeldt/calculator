@@ -29,10 +29,11 @@
     align-items: center;
     flex-wrap: wrap;
     height: 280px;
-    width: 300px;
+    width: 390px;
     margin-top: 150px;
     border-radius: 15px;
     gap: 15px;
+    border: solid green 2px;
     
     
 }
@@ -67,4 +68,16 @@
 
 #equalSign {
     width: 100px;
+    background-color: aquamarine;
+}
+
+.rightRowWrapper {
+    display: flex;
+    border: solid red 2px;
+    height: 200px;
+    width: 50px;
+}
+
+.operatorButtons {
+    background-color: bisque;
 }
