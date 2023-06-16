@@ -8,17 +8,18 @@
 .calculatorOuterFrame {
     display: flex;
     border-radius: 10px;
-    height: 550px;
-    width: 400px;
+    height: 560px;
+    width: 410px;
     margin: 100px;
     background-color: darkgrey;
 }
 
 .displayMain {
     background-color: blue;
-    width: 500px;
-    height: 100px;
+    width: 390px;
+    height: 120px;
     margin: 10px;
+    margin-top: 20px;
     border-radius: 15px;
 }
 
@@ -33,7 +34,6 @@
     margin-top: 150px;
     border-radius: 15px;
     gap: 15px;
-    border: solid green 2px;
     
     
 }
@@ -51,7 +51,6 @@
 }
 
 .bottomRow {
-    border: solid red 2px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -62,18 +61,16 @@
     
 }
 
-#zero {
+/* #zero {
     width: 140px;
-}
+} */
 
 #equalSign {
-    width: 100px;
     background-color: aquamarine;
 }
 
 .rightRowWrapper {
     display: flex;
-    border: solid red 2px;
     height: 200px;
     width: 50px;
 }
