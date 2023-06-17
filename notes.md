@@ -1,0 +1,2 @@
+- Missing a clear/delete ("c") button
+- Missing div within display to show inputs and output
