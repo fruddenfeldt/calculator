@@ -9,19 +9,20 @@
     display: flex;
     border-radius: 10px;
     height: 560px;
-    width: 410px;
+    width: 415px;
     margin: 100px;
-    background-color: darkgrey;
+    background-color: orange;
 }
 
 .displayMain {
-    background-color:#322E2C;
+    /* background-color:#322E2C; */
+    background-color: lightgreen;
     width: 390px;
     height: 120px;
     margin: 10px;
     margin-top: 20px;
-    
-    border: solid red 2px;
+    border: solid grey 3px;
+   
     
 }
 
@@ -44,7 +45,6 @@
     gap: 15px;
     
     
-    
 }
 
 .number {
@@ -54,10 +54,11 @@
     font-size: 30px;
     height: 80px;
     width: 80px;
-    background-color: #63615F;
+    /* background-color: #63615F; */
+    background-color: lightblue;
     border-radius: 7px;
     border: solid #302C29 1px;
-    color: white;
+    color: black;
 }
 
 .bottomRow {
@@ -86,5 +87,7 @@
 }
 
 .operatorButtons {
-    background-color: #F2A33C;
+    /* background-color: #F2A33C;*/
+    background-color: darkblue;
+    color: grey
 }
